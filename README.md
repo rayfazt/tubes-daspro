@@ -3,13 +3,13 @@
  Sistem Manajemen Wahana Bermain Perusahaan Coklat Willy Wangky
 
 Struktur Data File Eksternal:
-  - File User (user.csv): Nama,Tanggal_Lahir,Tinggi_Badan,Username,Password,Role,Saldo
-  - File Wahana (wahana.csv): ID_Wahana,Nama_Wahana,Harga_Tiket,Batasan_Umur,Batasan_Tinggi
-  - File Pembelian Tiket (pembelian.csv): Username,Tanggal_Pembelian,ID_Wahana,Jumlah_Tiket
-  - File Penggunaan Tiket (penggunaan.csv): Username,Tanggal_Penggunaan,ID_Wahana,Jumlah_Tiket
-  - File Kepemilikan Tiket (tiket.csv): Username,ID_Wahana,Jumlah_Tiket
-  - File Refund Tiket (refund.csv): Username,Tanggal_Refund,ID_Wahana,Jumlah_Tiket
-  - File Kritik dan Saran (kritiksaran.csv): Username,Tanggal_Kritik,ID_Wahana,Isi_Kritik
+  - File User: Nama,Tanggal_Lahir,Tinggi_Badan,Username,Password,Role,Saldo
+  - File Wahana: ID_Wahana,Nama_Wahana,Harga_Tiket,Batasan_Umur,Batasan_Tinggi
+  - File Pembelian Tiket: Username,Tanggal_Pembelian,ID_Wahana,Jumlah_Tiket
+  - File Penggunaan Tiket: Username,Tanggal_Penggunaan,ID_Wahana,Jumlah_Tiket
+  - File Kepemilikan Tiket: Username,ID_Wahana,Jumlah_Tiket
+  - File Refund Tiket: Username,Tanggal_Refund,ID_Wahana,Jumlah_Tiket
+  - File Kritik dan Saran: Username,Tanggal_Kritik,ID_Wahana,Isi_Kritik
   
 Fungsi dan Prosedur
   1. F01 - Load file
